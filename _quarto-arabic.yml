@@ -1,0 +1,52 @@
+
+project:
+  title: "My Website"
+lang: ar
+website:
+  comments: 
+    hypothesis:
+      theme: clean
+      openSidebar: false
+  title: "OSCSA"
+  favicon: favicon.png
+  page-navigation: true
+  page-footer:
+    right:
+      - text: "About"
+        href: lar-about.qmd
+      - text: "License"
+        href: license.qmd
+      - text: "Promoting Open Science inline with Vision 2030"
+        href: https://osc-ksa.com/
+    left:
+      - icon: twitter
+        href: https://twitter.com/OpenSciSaudi
+        aria-label: OSCSA Twitter
+      - icon: github
+        href: https://github.com/Open-Science-Community-Saudi-Arabia
+        aria-label: OSCSA GitHub
+  search: true
+  navbar:
+    background: light
+    collapse-below: lg
+    logo: logo3.png
+    title: false
+    left:
+      - text: "الصفحة الرئيسية للموقع"
+        href: https://osc-ksa.com/
+      - text: "من نحنُ"
+        href: lar-about.qmd
+    right:
+      - text: "EN"
+        href: index.qmd
+      - icon: github
+        href: https://github.com/Open-Science-Community-Saudi-Arabia
+      - icon: twitter
+        href: https://twitter.com/OpenSciSaudi
+      - text: "اللغة العربية"
+        href: https://twitter.com/OpenSciSaudi
+format:
+  html:
+    theme: yeti
+    dir: rtl
+    css: styles.css

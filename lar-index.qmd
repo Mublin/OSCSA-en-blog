@@ -1,0 +1,17 @@
+---
+lang: ar
+title: "مدونة مجتمع العلوم المفتوحة السعودي"
+listing:
+  contents: ar-posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+logo: logo.png
+image: logo.png
+---
+
+
